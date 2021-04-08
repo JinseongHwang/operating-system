@@ -37,3 +37,4 @@ CMakeLists.txt
 cmake-build-debug/
 markingData/
 problems/
+Main.cpp
