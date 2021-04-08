@@ -29,8 +29,8 @@ void printProcessStatus(const SJF &process) {
 
 int main() {
 
-    freopen("./sjf.inp", "r", stdin);
-    freopen("./sjf.out", "w", stdout);
+//    freopen("./sjf.inp", "r", stdin);
+//    freopen("./sjf.out", "w", stdout);
 
     ll N;
     scanf("%lld", &N);
