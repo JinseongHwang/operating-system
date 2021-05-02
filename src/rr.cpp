@@ -105,10 +105,9 @@ void run() {
          * 4. exeIdx 랑 priority 잘 갱신하고 유지하기
          */
 
-        currTime++;
+        currTime++; // 현재 시간을 1 증가시킨다.
 
         if (readyQueue.empty()) { // 당장 실행할 task가 없는 경우
-//            currTime++;
             continue;
         }
 
@@ -144,15 +143,10 @@ void run() {
         }
         else {}
 
-        // 현재 시간을 1 증가시킨다.
-//        currTime++;
     }
 }
 
 int main() {
-
-//    freopen("../markingData/sampleData6/2.inp", "r", stdin);
-//    freopen("../markingData/sampleData6/my.out", "w", stdout);
 
     freopen("rr.inp", "r", stdin);
     freopen("rr.out", "w", stdout);
